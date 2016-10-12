@@ -7,3 +7,39 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* ===== BASE STYLES ===== */
+
+html{
+  font-size: 1.125em; /* 18px /16px */
+  line-height: 1.2em; /* 18 x 120% = 21.6px */
+  background-color: #ADA199;
+  color: #1F1C0D;
+}
+
+h1{
+  font-size: 2.3683em; /*42.635px/18px = */
+  line-height: 1.5198em; /*64.8px (2lbase lines) / 42.635*/
+}
+
+nav{
+  font-size: 1.7768em; /* 31.984px/18px */
+  line-height: 1.3506em; /* 43.2px (2lbase lines) / 31.984px */
+  background-color: #604848;
+}
+
+nav li{
+  display: inline;
+  
+  }
+  
+ nav a{
+   text-decoration: none;
+   color:#1F1C0D;
+ }
+  
+ nav a:hover{
+   color: red;
+ }
+/* ===== LAYOUT STYLES ===== */
+/* ===== MODULAR STYLES ===== */
+/* ===== STATE STYLES ===== */
+/* ===== ??? STYLES ===== */
