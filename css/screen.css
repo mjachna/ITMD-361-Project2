@@ -13,6 +13,8 @@ html{
   line-height: 1.2em; /* 18 x 120% = 21.6px */
   background-color: #ADA199;
   color: #1F1C0D;
+  font-family: serif;
+  padding: 1.2em 0.9em; /*21.6px x 3/4 = 16.2, 16.2px / 18px*/
 }
 
 h1{
@@ -27,19 +29,52 @@ nav{
 }
 
 nav li{
-  display: inline;
-  
-  }
+  display: inline;  
+}
   
  nav a{
-   text-decoration: none;
-   color:#1F1C0D;
- }
+  text-decoration: none;
+  color:#1F1C0D;
+}
   
  nav a:hover{
-   color: red;
- }
+  color: red;
+}
+ 
+ figcaption{
+  font-size: 0.75em; /* 13.503px /18px */
+  background-color: #604848;
+  text-align: center;
+}
+
+footer{
+  font-size: 0.75em; /* 13.503px /18px */
+}
+ 
 /* ===== LAYOUT STYLES ===== */
+
+img{
+  display: block;
+  max-width: 60%;
+  padding: 0 20%;
+}
+
+nav{
+  text-align: center;
+} 
+
+p{
+  padding-top: 1.2em;
+}
+
+article ul{
+  padding: 1.2em 0.9em 0 0.9em;
+}
+
+article li{
+  list-style-type: disc;
+}     
+        
 /* ===== MODULAR STYLES ===== */
 /* ===== STATE STYLES ===== */
 /* ===== ??? STYLES ===== */
