@@ -1,3 +1,3 @@
-# ITMD-361-Project1
+# ITMD-361-Project2
 A webiste about me
 NOTE media files may be large
