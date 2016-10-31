@@ -14,27 +14,33 @@ html{
   background-color: #ADA199;
   color: #1F1C0D;
   font-family: serif;
-  padding: 1.2em 0.9em; /*21.6px x 3/4 = 16.2, 16.2px / 18px*/
+  padding: 3.4375% 3.4375%; /*22px /2 = 11px  11/320 = 0.034375*/
 }
 
 h1{
-  font-size: 2.3683em; /*42.635px/18px = */
-  line-height: 1.5198em; /*64.8px (2lbase lines) / 42.635*/
+  font-size: 2.488em; /*44.79px/18px = */
+  line-height: 1.4422em; /*64.8px (3lbase lines) / 44.79px*/
+  background-image: url("../../pictures/brhead.jpg");
+  background-size: 100%;
+  max-width: 100%;
 }
 
 nav{
-  font-size: 1.7768em; /* 31.984px/18px */
-  line-height: 1.3506em; /* 43.2px (2lbase lines) / 31.984px */
+  font-size: 1.44em; /* 25.92px/18px */
+  line-height: 2.5em; /* 64.8px (3lbase lines) / 25.92px */
   background-color: #604848;
+  
 }
 
 nav li{
-  display: inline;  
+  display: inline;
 }
   
  nav a{
   text-decoration: none;
   color:#1F1C0D;
+  background-color: #604848;
+  padding: 3%;
 }
   
  nav a:hover{
@@ -42,7 +48,8 @@ nav li{
 }
  
  figcaption{
-  font-size: 0.75em; /* 13.503px /18px */
+  font-size: 0.579em; /* 10.417px /18px */
+  line-height: 2.073em; /*21.6px/10.417px*/
   background-color: #604848;
   text-align: center;
 }
