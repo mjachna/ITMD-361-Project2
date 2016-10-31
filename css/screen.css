@@ -22,7 +22,6 @@ h1{
   line-height: 1.4422em; /*64.8px (3lbase lines) / 44.79px*/
   background-image: url("../../pictures/brhead.jpg");
   background-size: 100%;
-  max-width: 100%;
 }
 
 nav{
@@ -40,7 +39,7 @@ nav li{
   text-decoration: none;
   color:#1F1C0D;
   background-color: #604848;
-  padding: 3%;
+  padding: 10px;
 }
   
  nav a:hover{
@@ -83,5 +82,9 @@ article li{
 }     
         
 /* ===== MODULAR STYLES ===== */
+
 /* ===== STATE STYLES ===== */
-/* ===== ??? STYLES ===== */
+@media screen and (minwidth: 336.111em){
+  
+  /*picture stay at the current as max, align fig caption under picture, move text left and picture to right */
+ 
