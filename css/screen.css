@@ -22,6 +22,8 @@ h1{
   line-height: 1.4422em; /*64.8px (3lbase lines) / 44.79px*/
   background-image: url("../../pictures/brhead.jpg");
   background-size: 100%;
+  background-size: cover;
+  padding-left: 3.4375%;
 }
 
 nav{
@@ -56,10 +58,14 @@ nav li{
 footer{
   font-size: 0.75em; /* 13.503px /18px */
 }
+
+p::first-letter{
+  font-size: 150%;
+}
  
 /* ===== LAYOUT STYLES ===== */
 
-img{
+#homePicture{
   display: block;
   max-width: 60%;
   padding: 0 20%;
@@ -83,8 +89,25 @@ article li{
         
 /* ===== MODULAR STYLES ===== */
 
+.caption::first-letter{
+  font-size: 100%;
+}
 /* ===== STATE STYLES ===== */
-@media screen and (minwidth: 336.111em){
+@media screen and (min-width: 31.25em){
   
-  /*picture stay at the current as max, align fig caption under picture, move text left and picture to right */
+#home{
+  display: inline-block;
+  float: left;
+}  
+
+#homePicture{
+  max-width: 200px;  
+  padding: 0 5%;
+}
+
+#homeCaption{
+  margin-left: 5%;
+  max-width: 200px;  
+}  
+
  
