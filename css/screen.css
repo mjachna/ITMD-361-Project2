@@ -38,7 +38,7 @@ nav li{
   
  nav a{
   text-decoration: none;
-   color: #C0C0C0;
+  color: #C0C0C0;
   background-color: #604848;
   padding: 10px;
 }
@@ -122,6 +122,7 @@ div p{
 }
 .caption{
   margin-left:0%;
+  color: #C0C0C0;
 }
 
 #homeUL{
