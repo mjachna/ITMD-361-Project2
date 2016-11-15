@@ -7,7 +7,7 @@
       <link rel="stylesheet" media="screen" href="../css/screen.css" />
     </head>
     <body>
-      <header>
+      <header class="h-card" id="header">
         <h1>Gaming</h1>
         <nav>
           <ul>
@@ -17,49 +17,53 @@
           </ul>
         </nav>
       </header>
-      <section class="paragraph">
+      <section>
         <h2>Why games?</h2>
-        <p>The first consol I ever played was a Sega Dreamcast. It intaduced me to gaming and it's been something that kept my attention and intrest ever since. Playing video games feels like creating your own story rather then watching it play out. It's also extremly fun!</p>
+        <p class = "gpara">The first consol I ever played was a Sega Dreamcast. It intaduced me to gaming and it's been something that kept my attention and intrest ever since. Playing video games feels like creating your own story rather then watching it play out. It's also extremly fun!</p>
       </section>
       <section class="game-list"> 
-        <h2>Favorite games</h2>
-          <ul>
+        <h2>Favorites</h2>
+          <ul id = "gul">
             <li>
-              <figure class="frogger-video">
-                <h3>Frogger 2 Swampys Revenge</h3>
+              <h3>Frogger 2 Swampys Revenge</h3>
+              <p class = "gpara" id = "gpara1">This is more then just the typical Frogger game where your try to cross a street and not get hit by a car. This is an adventure. Featuring a story mode where you play as multiple frogs to rescue your frog children. One of the first games Iever played and enjoyed.</p>
+              <figure id="frogger-video">
                 <video controls="controls">
                 <source src="../videos/frogger-2.mp4" type="video/mp4" />
                 <source src="../videos/frogger-2.webm" type="video/webm" />
                 <p>You may download the video <a href="../videos/frogger-2.mp4">here</a>.</p>
                 </video>
                 <figcaption>
-                  <p>Frogger 2 Swampys Revenge was one of the first games I played and one that I won't forget. <a href="https://www.youtube.com/watch?v=074chXARAQY">Link to original video</a></p>
+                  <p><a href="https://www.youtube.com/watch?v=074chXARAQY">Original video here.</a></p>
                 </figcaption>
               </figure>
             </li>
             <li>
-              <figure class="witcher-video">
-                <h3>Witcher 3 Wild Hunt</h3>
+              <h3>Modern Warfare 2</h3>
+              <p class = "gpara" id = "gpara2">A Call of Duty game does not need too much explaining. It is a first person shooter. However, it is my favorite of the genre. Featuring a captivating single player campaign and an enjoyabe muliplayer experience.</p>
+              <figure id="codPicture">
+                <img src="../pictures/cod.jpeg" alt="Modern Warfare 2 poster" />
+                <figcaption>
+                  <p>Modern Warfare 2</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <h3>Witcher 3 Wild Hunt</h3>
+              <p class = "gpara" id = "gpara3">Based on a book this is the third and final instalment of the series. Winning Game of the Year this game has a great story,side story, and game play in general. It's an adventure game where you play as Geralt, a Witcher, and slay monsters for profit and to save your friends.</p>
+              <figure id="witcher-video">
                 <video controls="controls">
                 <source src="../videos/witcher-3.mp4" type="video/mp4" />
                 <source src="../videos/witcher-3.webm" type="video/webm" />
                 <p>You may download the video <a href="../videos/witcher-3.mp4">here</a>.</p>
                 </video>
                 <figcaption>
-                  <p>Witcher 3 a fairly new game with some of the best story and gameplay. <a href="https://www.youtube.com/watch?v=HtVdAasjOgU&oref=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHtVdAasjOgU&has_verified=1">Link to original video</a></p>
-                </figcaption>
-              </figure>
-            </li>
-            <li>
-              <figure class="picture">
-                <img src="../pictures/cod.jpeg" alt="Modern Warfare 2 poster" />
-                <figcaption>
-                  <p>Modern Warfare 2 also one of the only CoD games that I enjoyed.</p>
+                  <p><a href="https://www.youtube.com/watch?v=HtVdAasjOgU&oref=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHtVdAasjOgU&has_verified=1">Original video here.</a></p>
                 </figcaption>
               </figure>
             </li>
             <li>Other games I've enjoyed
-              <ul>
+              <ul id = "glist">
                 <li>Assassin's Creed</li>
                 <li>Dawn of War Warhamer 40,000k</li>
                 <li>Empire Total War</li>
@@ -70,7 +74,7 @@
           </ul>
       </section>
       <footer>
-        <h5>Site last updated 9/20/16 by Mateusz Jachna</h5>
+        <p>Site last updated 11/14/16 by Mateusz Jachna</p>
       </footer>
     </body>
     </html>
