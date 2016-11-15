@@ -19,35 +19,47 @@ html{
 
 h1{
   font-size: 2.488em; /*44.79px/18px = */
-  line-height: 1.4422em; /*64.8px (3lbase lines) / 44.79px*/
+  line-height: 1.4422em; /*64.8px (3base lines) / 44.79px*/
   background-image: url("../pictures/brhead.jpg");
   background-size: 100%;
   background-size: cover;
   padding-left: 3.4375%;
 }
 
+h2{
+  font-size: 2.074em; /*37.325px / 18px*/
+  line-height: 1.157em; /*43.2px (2base lines) / 37.325px*/
+  padding: 0.2894em 0;
+  background-color: #604848;
+  color: #C0C0C0;
+}
+
 nav{
   font-size: 1.44em; /* 25.92px/18px */
   line-height: 2.5em; /* 64.8px (3lbase lines) / 25.92px */
   background-color: #604848;
+  margin-bottom: 0.8333em;
 }
 
 nav li{
   display: inline;
 }
-  
- nav a{
+
+a{
   text-decoration: none;
+  color: darkblue;
+}  
+nav a{
   color: #C0C0C0;
   background-color: #604848;
   padding: 10px;
 }
   
- nav a:hover{
+nav a:hover{
   color: red;
 }
  
- figcaption{
+figcaption{
   font-size: 0.579em; /* 10.417px /18px */
   line-height: 2.073em; /*21.6px/10.417px*/
   background-color: #604848;
