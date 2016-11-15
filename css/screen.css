@@ -250,4 +250,4 @@ div p, #homeUL{
 }
 }
  
- /*add media query at 950px for 2 columns of text*/
+/*media qeruy isnt workin on IE works on edge at large size (add smaller media query 1080)*/
