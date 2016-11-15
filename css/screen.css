@@ -34,6 +34,10 @@ h2{
   color: #C0C0C0;
 }
 
+h3{
+  padding: 3.4375% 3.4375%;
+}
+
 nav{
   font-size: 1.44em; /* 25.92px/18px */
   line-height: 2.5em; /* 64.8px (3lbase lines) / 25.92px */
@@ -79,13 +83,23 @@ ul li ul li ul{/*list within list within list*/
   list-style: disc inside;
   padding: 0 3.4375%; /*22px /2 = 11px  11/320 = 0.034375*/
 }
+
+figcaption{
+  margin-bottom: 1.2em;
+}
+
+figcaption p, figcaption a {
+  color: #C0C0C0;
+}
+
 p::first-letter{
   font-size: 150%;
 }
 
-.caption::first-letter{
+figcaption p::first-letter{
   font-size: 100%;
 }
+
 
 #name{
   font-size: 1.125em; /* 18px /16px */
@@ -102,6 +116,10 @@ p::first-letter{
  
 
 /* ===== LAYOUT STYLES ===== */
+video, img{
+  display: block;
+  width: 100%;
+}
 
 #homePicture{
   display: block;
@@ -132,8 +150,11 @@ article li{
 .h-card ul{
   padding: 0;
 }
-    
-        
+
+.gpara{
+  padding: 1.2em;
+}  
+ 
 /* ===== MODULAR STYLES ===== */
 
 
@@ -172,7 +193,26 @@ div p{
   margin-left:42.2%;/*260px/650px*/
 }
 
+#gpara1, #gpara2, #gpara3{
+  width: 35.6%;
+  padding-left: 2.2%;
+  float: left;
+}
+#frogger-video, #witcher-video, #codPicture{
+  width: 55.6%;
+  padding-left: 42.2%;
+ }
+
+ul li ul #glist{
+  padding-left: 2.2%;
+  float: left;
+ }
 @media screen and (min-width: 80em)/*1280px / 16px*/{
+
+video, img, .game-list figcaption{
+  display: block;
+  width: 60%;
+}
 
 div p, #homeUL{
   margin-left:0;/
@@ -197,6 +237,9 @@ div p, #homeUL{
   width: 35.6%;
 }
 
+#gul{
+  padding-left: 18.3%;
+}
 }
  
  /*add media query at 950px for 2 columns of text*/
