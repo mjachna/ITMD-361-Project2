@@ -20,7 +20,7 @@ html{
 h1{
   font-size: 2.488em; /*44.79px/18px = */
   line-height: 1.4422em; /*64.8px (3lbase lines) / 44.79px*/
-  background-image: url("../../pictures/brhead.jpg");
+  background-image: url("../pictures/brhead.jpg");
   background-size: 100%;
   background-size: cover;
   padding-left: 3.4375%;
@@ -30,7 +30,6 @@ nav{
   font-size: 1.44em; /* 25.92px/18px */
   line-height: 2.5em; /* 64.8px (3lbase lines) / 25.92px */
   background-color: #604848;
-  
 }
 
 nav li{
@@ -39,7 +38,7 @@ nav li{
   
  nav a{
   text-decoration: none;
-  color:#1F1C0D;
+   color: #C0C0C0;
   background-color: #604848;
   padding: 10px;
 }
@@ -67,12 +66,13 @@ p::first-letter{
   font-size: 100%;
 }
  
+
 /* ===== LAYOUT STYLES ===== */
 
 #homePicture{
   display: block;
   max-width: 60%;
-  padding: 0 20%;
+  margin-left: 20%;/*centers image*/
 }
 
 nav{
@@ -97,26 +97,62 @@ article li{
 /* ===== STATE STYLES ===== */
 @media screen and (min-width: 31.25em)/*500px / 16px*/{
   
+#homePicture{
+  display: block;
+  max-width: 40%;
+  margin: 0 30%;
+}
+
+@media screen and (min-width: 40.625em)/*650px / 16px*/{
+  
 #home{
   display: inline-block;
-  float: left;
+  position: absolute;
+  max-width: 35.6%; /*231.4 / 650*/
 }  
 
 #homePicture{
-  max-width: 200px;  
-  padding: 0 5%;
+  margin-left: 0%;
+  max-width: 100%;
 }
 
-#homeCaption{
-  margin-left: 5%;
-  max-width: 200px;  
-}  
+div p{
+  padding: 0 0 0 0;
+  margin-left:42.2%;/*260px/650px*/
+}
+.caption{
+  margin-left:0%;
+}
 
-/*text and caption resize after the page size is moved (fix that)*/
+#homeUL{
+  margin-left:42.2%;/*260px/650px*/
+}
 
- @media screen and (min-width: 46.875em)/*750px / 16px*/{
-   
-   /*li items runnig into picture + change li items*/
- }
+@media screen and (min-width: 80em)/*1280px / 16px*/{
+
+div p, #homeUL{
+  margin-left:0;/
+}
+
+#homePicture{
+  width: 100%;
+}
+
+#home{
+  width: 15.6%;
+}
+
+#p1, footer{
+  padding-left: 22.2%;
+  width: 35.6%;
+  float: left;
+}
+
+#p2, #homeUL{
+  padding-left: 62.2%;
+  width: 35.6%;
+}
+
+}
  
  /*add media query at 950px for 2 columns of text*/
