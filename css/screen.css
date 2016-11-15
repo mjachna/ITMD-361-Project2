@@ -114,7 +114,10 @@ figcaption p::first-letter{
   line-height: 1.66em; /* 43.2 = 25.92px */
 } 
  
-
+#class-list {
+  font-size: 0.833em; /* 15px /18px */
+  line-height: 1.44em; /* 21.6/ 15px */
+}
 /* ===== LAYOUT STYLES ===== */
 video, img{
   display: block;
@@ -165,6 +168,11 @@ article li{
   display: block;
   max-width: 40%;
   margin: 0 30%;
+}
+
+#class-list {
+  font-size: 1em;
+  line-height: 1.2em;
 }
 
 @media screen and (min-width: 40.625em)/*650px / 16px*/{
